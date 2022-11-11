@@ -1,0 +1,79 @@
+2022-11-10 17:59:48.143  INFO 10960 --- [restartedMain] com.student.ust.UstApplication           : Starting UstApplication using Java 1.8.0_241 on ustfsd51 with PID 10960 (C:\Users\ustjavafsdb223\Desktop\ust\target\classes started by ustjavafsdb223 in C:\Users\ustjavafsdb223\Desktop\ust)
+2022-11-10 17:59:48.145 DEBUG 10960 --- [restartedMain] com.student.ust.UstApplication           : Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-11-10 17:59:48.145  INFO 10960 --- [restartedMain] com.student.ust.UstApplication           : The following 1 profile is active: "dev"
+2022-11-10 17:59:48.249  INFO 10960 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-10 17:59:48.251  INFO 10960 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-10 17:59:49.842  INFO 10960 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-10 17:59:49.934  INFO 10960 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 73 ms. Found 2 JPA repository interfaces.
+2022-11-10 17:59:51.819  INFO 10960 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-10 17:59:51.849  INFO 10960 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-10 17:59:51.850  INFO 10960 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-10 17:59:52.071  INFO 10960 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-10 17:59:52.071  INFO 10960 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3820 ms
+2022-11-10 17:59:52.494  INFO 10960 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-10 17:59:52.626  INFO 10960 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-10 17:59:52.988  INFO 10960 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-10 17:59:53.250  INFO 10960 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-10 17:59:54.304  INFO 10960 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-10 17:59:54.353  INFO 10960 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-11-10 17:59:55.946 DEBUG 10960 --- [restartedMain] org.hibernate.SQL                        : alter table book_ust_identitymappedbytest add constraint FK70h87d8px6du7ntmmy9e8xipa foreign key (student_student_id) references student_ust_identitymappedbytest (student_id)
+2022-11-10 17:59:56.106  INFO 10960 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-10 17:59:56.121  INFO 10960 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-10 17:59:57.483  WARN 10960 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-10 17:59:57.720  INFO 10960 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-11-10 17:59:57.896  INFO 10960 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-10 17:59:59.105  INFO 10960 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-10 17:59:59.106  INFO 10960 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-11-10 17:59:59.138  INFO 10960 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-11-10 17:59:59.211  INFO 10960 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-11-10 17:59:59.398  INFO 10960 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: addUsingPOST_1
+2022-11-10 17:59:59.403  INFO 10960 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingDELETE_1
+2022-11-10 17:59:59.407  INFO 10960 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUsingGET_1
+2022-11-10 17:59:59.412  INFO 10960 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: get2UsingGET_1
+2022-11-10 17:59:59.418  INFO 10960 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: putUsingPUT_1
+2022-11-10 17:59:59.448  INFO 10960 --- [restartedMain] com.student.ust.UstApplication           : Started UstApplication in 12.023 seconds (JVM running for 13.252)
+2022-11-10 18:01:32.086  INFO 10960 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-10 18:01:32.087  INFO 10960 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-10 18:01:32.090  INFO 10960 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-11-10 18:01:32.371 DEBUG 10960 --- [http-nio-8080-exec-2] org.hibernate.SQL                        : select student0_.student_id as student_1_1_, student0_.create_date as create_d2_1_, student0_.modify_date as modify_d3_1_, student0_.age as age4_1_, student0_.name as name5_1_ from student_ust_identitymappedbytest student0_ where student0_.name=?
+2022-11-10 18:01:32.381 TRACE 10960 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [shivan]
+2022-11-10 18:01:32.399 TRACE 10960 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([student_1_1_] : [INTEGER]) - [1]
+2022-11-10 18:01:32.409 TRACE 10960 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([create_d2_1_] : [TIMESTAMP]) - [2022-11-08T17:36:41]
+2022-11-10 18:01:32.409 TRACE 10960 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([modify_d3_1_] : [TIMESTAMP]) - [2022-11-08T17:36:41]
+2022-11-10 18:01:32.409 TRACE 10960 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([age4_1_] : [INTEGER]) - [23]
+2022-11-10 18:01:32.410 TRACE 10960 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name5_1_] : [VARCHAR]) - [shivan]
+2022-11-10 18:01:32.433 DEBUG 10960 --- [http-nio-8080-exec-2] org.hibernate.SQL                        : select booksset0_.student_student_id as student_7_0_0_, booksset0_.book_id as book_id1_0_0_, booksset0_.book_id as book_id1_0_1_, booksset0_.create_date as create_d2_0_1_, booksset0_.modify_date as modify_d3_0_1_, booksset0_.name as name4_0_1_, booksset0_.price as price5_0_1_, booksset0_.student_student_id as student_7_0_1_, booksset0_.year as year6_0_1_ from book_ust_identitymappedbytest booksset0_ where booksset0_.student_student_id=?
+2022-11-10 18:01:32.435 TRACE 10960 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [1]
+2022-11-10 18:01:32.449 DEBUG 10960 --- [http-nio-8080-exec-2] org.hibernate.SQL                        : select student0_.student_id as student_1_1_, student0_.create_date as create_d2_1_, student0_.modify_date as modify_d3_1_, student0_.age as age4_1_, student0_.name as name5_1_ from student_ust_identitymappedbytest student0_ where student0_.age=?
+2022-11-10 18:01:32.449 TRACE 10960 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [27]
+2022-11-10 18:01:32.454 TRACE 10960 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([student_1_1_] : [INTEGER]) - [2]
+2022-11-10 18:01:32.454 TRACE 10960 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([create_d2_1_] : [TIMESTAMP]) - [2022-11-08T17:44:19]
+2022-11-10 18:01:32.455 TRACE 10960 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([modify_d3_1_] : [TIMESTAMP]) - [2022-11-08T17:44:19]
+2022-11-10 18:01:32.455 TRACE 10960 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([age4_1_] : [INTEGER]) - [27]
+2022-11-10 18:01:32.456 TRACE 10960 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name5_1_] : [VARCHAR]) - [surya]
+2022-11-10 18:01:32.456 DEBUG 10960 --- [http-nio-8080-exec-2] org.hibernate.SQL                        : select booksset0_.student_student_id as student_7_0_0_, booksset0_.book_id as book_id1_0_0_, booksset0_.book_id as book_id1_0_1_, booksset0_.create_date as create_d2_0_1_, booksset0_.modify_date as modify_d3_0_1_, booksset0_.name as name4_0_1_, booksset0_.price as price5_0_1_, booksset0_.student_student_id as student_7_0_1_, booksset0_.year as year6_0_1_ from book_ust_identitymappedbytest booksset0_ where booksset0_.student_student_id=?
+2022-11-10 18:01:32.456 TRACE 10960 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [2]
+2022-11-10 18:01:32.489 DEBUG 10960 --- [http-nio-8080-exec-2] org.hibernate.SQL                        : select student0_.student_id as student_1_1_, student0_.create_date as create_d2_1_, student0_.modify_date as modify_d3_1_, student0_.age as age4_1_, student0_.name as name5_1_ from student_ust_identitymappedbytest student0_
+2022-11-10 18:01:32.491 TRACE 10960 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([student_1_1_] : [INTEGER]) - [1]
+2022-11-10 18:01:32.491 TRACE 10960 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([student_1_1_] : [INTEGER]) - [2]
+2022-11-10 18:13:32.840 DEBUG 10960 --- [http-nio-8080-exec-4] org.hibernate.SQL                        : select student0_.student_id as student_1_1_, student0_.create_date as create_d2_1_, student0_.modify_date as modify_d3_1_, student0_.age as age4_1_, student0_.name as name5_1_ from student_ust_identitymappedbytest student0_ where student0_.name=?
+2022-11-10 18:13:32.842 TRACE 10960 --- [http-nio-8080-exec-4] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [shivan]
+2022-11-10 18:13:32.845 TRACE 10960 --- [http-nio-8080-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([student_1_1_] : [INTEGER]) - [1]
+2022-11-10 18:13:32.845 TRACE 10960 --- [http-nio-8080-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([create_d2_1_] : [TIMESTAMP]) - [2022-11-08T17:36:41]
+2022-11-10 18:13:32.845 TRACE 10960 --- [http-nio-8080-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([modify_d3_1_] : [TIMESTAMP]) - [2022-11-08T17:36:41]
+2022-11-10 18:13:32.846 TRACE 10960 --- [http-nio-8080-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([age4_1_] : [INTEGER]) - [23]
+2022-11-10 18:13:32.846 TRACE 10960 --- [http-nio-8080-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name5_1_] : [VARCHAR]) - [shivan]
+2022-11-10 18:13:32.847 DEBUG 10960 --- [http-nio-8080-exec-4] org.hibernate.SQL                        : select booksset0_.student_student_id as student_7_0_0_, booksset0_.book_id as book_id1_0_0_, booksset0_.book_id as book_id1_0_1_, booksset0_.create_date as create_d2_0_1_, booksset0_.modify_date as modify_d3_0_1_, booksset0_.name as name4_0_1_, booksset0_.price as price5_0_1_, booksset0_.student_student_id as student_7_0_1_, booksset0_.year as year6_0_1_ from book_ust_identitymappedbytest booksset0_ where booksset0_.student_student_id=?
+2022-11-10 18:13:32.847 TRACE 10960 --- [http-nio-8080-exec-4] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [1]
+2022-11-10 18:13:32.849 DEBUG 10960 --- [http-nio-8080-exec-4] org.hibernate.SQL                        : select student0_.student_id as student_1_1_, student0_.create_date as create_d2_1_, student0_.modify_date as modify_d3_1_, student0_.age as age4_1_, student0_.name as name5_1_ from student_ust_identitymappedbytest student0_ where student0_.age=?
+2022-11-10 18:13:32.849 TRACE 10960 --- [http-nio-8080-exec-4] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [27]
+2022-11-10 18:13:32.851 TRACE 10960 --- [http-nio-8080-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([student_1_1_] : [INTEGER]) - [2]
+2022-11-10 18:13:32.852 TRACE 10960 --- [http-nio-8080-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([create_d2_1_] : [TIMESTAMP]) - [2022-11-08T17:44:19]
+2022-11-10 18:13:32.852 TRACE 10960 --- [http-nio-8080-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([modify_d3_1_] : [TIMESTAMP]) - [2022-11-08T17:44:19]
+2022-11-10 18:13:32.852 TRACE 10960 --- [http-nio-8080-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([age4_1_] : [INTEGER]) - [27]
+2022-11-10 18:13:32.852 TRACE 10960 --- [http-nio-8080-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name5_1_] : [VARCHAR]) - [surya]
+2022-11-10 18:13:32.853 DEBUG 10960 --- [http-nio-8080-exec-4] org.hibernate.SQL                        : select booksset0_.student_student_id as student_7_0_0_, booksset0_.book_id as book_id1_0_0_, booksset0_.book_id as book_id1_0_1_, booksset0_.create_date as create_d2_0_1_, booksset0_.modify_date as modify_d3_0_1_, booksset0_.name as name4_0_1_, booksset0_.price as price5_0_1_, booksset0_.student_student_id as student_7_0_1_, booksset0_.year as year6_0_1_ from book_ust_identitymappedbytest booksset0_ where booksset0_.student_student_id=?
+2022-11-10 18:13:32.853 TRACE 10960 --- [http-nio-8080-exec-4] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [2]
+2022-11-10 18:13:32.856 DEBUG 10960 --- [http-nio-8080-exec-4] org.hibernate.SQL                        : select student0_.student_id as student_1_1_, student0_.create_date as create_d2_1_, student0_.modify_date as modify_d3_1_, student0_.age as age4_1_, student0_.name as name5_1_ from student_ust_identitymappedbytest student0_
+2022-11-10 18:13:32.857 TRACE 10960 --- [http-nio-8080-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([student_1_1_] : [INTEGER]) - [1]
+2022-11-10 18:13:32.858 TRACE 10960 --- [http-nio-8080-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([student_1_1_] : [INTEGER]) - [2]
